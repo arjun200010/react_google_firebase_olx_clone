@@ -4,13 +4,13 @@ import { getFirestore } from "firebase/firestore";
 import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB7JWdwp5lyVTesSRMFi2J2U_aVYV0Xg5o",
-  authDomain: "olxclone-47f0d.firebaseapp.com",
-  projectId: "olxclone-47f0d",
-  storageBucket: "olxclone-47f0d.appspot.com",
-  messagingSenderId: "776013901402",
-  appId: "1:776013901402:web:d90f74228e7ab488dbb263",
-  measurementId: "G-F2BLS13728"
+  apiKey: "",                  // Enter your values in this code 
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 
 const app = initializeApp(firebaseConfig);
